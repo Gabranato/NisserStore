@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap');
+
+body {
+    background-color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    color: black;
+    margin-top: 110px;
+
+    &>header { 
+        background-color: #add8e6;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+
+        &>div.container {
+
+            &>div.row {
+
+                &>div {
+
+                    &>img {
+                        width: 100%;
+                    }
+
+                    &>nav.menu {
+                        width: 100%;
+
+                        &>ul {
+                            width: 100%;
+                            margin: 0;
+                            padding: 40px;
+                            list-style: none;
+                            text-align: right;
+
+                            &>li {
+                                display: inline-block;
+                                margin-left: 30px;
+
+                                &>a {
+                                    font-weight: 400;
+                                    color: black;
+                                    
+                                    &:hover{
+                                        color: rgb(6, 58, 156);
+                                        text-decoration: none;
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &>main {
+
+        &>div.carousel { 
+
+            &>div.carousel-inner { 
+        
+                &>div.carousel-item { 
+        
+                    &>.img {
+                        width: 100%
+                    }
+                }
+            }
+        }
+    }
+
+    &>section {
+        padding: 1px 0;
+        
+        &.part1 { 
+            width: 100%;
+        }
+        &.part2 {
+            width: 100%;
+        }
+        &.part3 {
+            width: 100%;
+        }
+
+        &.localizacao { width: 100%;
+            margin: 0;
+
+        }
+    }
+    &>footer { 
+        background-color: #999;
+
+        &>div.container {
+            &>div.row {
+                &>div.rodapeesquerdo {
+                    &>nav.nmenu {
+                        &>ul {
+                            width: 100%;
+                            margin: 0;
+                            padding: 15px 0;
+                            list-style: none;
+                            text-align: left;
+
+                            &>li {
+                                &>a {
+                                    font-weight: 400;
+                                    color: black;
+
+                                    &:hover{
+                                        text-decoration: none;
+                                        color: rgb(255, 0, 0);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &>div.rodapecentro{
+                    &>p {
+                        width: 100%;
+                        margin: 0;
+                        padding: 15px 0;
+                    }
+                }
+                &>div.rodapedireito {
+                    &>nav.smenu {
+                        &>ul {
+                            width: 100%;
+                            margin: 0;
+                            padding: 15px 0;
+                            list-style: none;
+                            text-align: left;
+
+                            &>li {
+                                &>i.fab {
+                                    font-size: 25px;
+                                    padding: 2px;
+                                    color: rgb(201, 205, 211);
+                                }
+                                &>a {  
+                                font-weight: 400;
+                                color: rgb(13, 3, 54);
+
+                                    &:hover{
+                                        color: rgb(255, 0, 0);
+                                        text-decoration: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &>div.copyright {   
+            background-color: rgb(73, 73, 73);
+
+            &>div.container {
+                &>div.row {
+                    width: 100%;
+
+                    &>div.copy {
+                        &>p{
+                        font-weight: 300;
+                        font-size: 15px;
+                        color: black;
+                        }
+                    }
+                }
+            }
+        } 
+    }  
+}
+
