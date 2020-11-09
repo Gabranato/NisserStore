@@ -55,7 +55,7 @@ body > main > div.carousel > div.carousel-inner > div.carousel-item > .img {
 
 body > section {
   padding: 10px 0 10px 0;
-  background-color: #b3b3b3;
+  background-color: #85cfe7;
 }
 
 body > section.part1 {
@@ -78,9 +78,10 @@ body > section.localizacao {
   margin: 0;
 }
 
-body > section.promocao {
+body > section.promo {
   width: 100%;
   margin: 0;
+  background-color: #7ab4c7;
 }
 
 body > footer {

@@ -74,7 +74,7 @@ body {
 
     &>section {
         padding:  10px 0 10px 0;
-        background-color: rgb(179, 179, 179);
+        background-color: #85cfe7;
         
         &.part1 { 
             width: 100%;
@@ -95,9 +95,10 @@ body {
             
         }
 
-        &.promocao { 
+        &.promo { 
             width: 100%;
             margin: 0;
+            background-color: #7ab4c7;
         }
         
     }
